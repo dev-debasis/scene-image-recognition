@@ -4,23 +4,22 @@ const path = require('path');
 const { spawn } = require('child_process');
 const cors = require('cors');
 const fs = require('fs');
+require('dotenv').config()
 
 const app = express();
 app.use(cors());
 
-// Set up multer storage
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, './uploads'); // Destination folder for uploaded files
+    cb(null, './uploads'); 
   },
   filename: (req, file, cb) => {
-    cb(null, Date.now() + path.extname(file.originalname)); // Unique filename
+    cb(null, Date.now() + path.extname(file.originalname));
   }
 });
 
 const upload = multer({ storage: storage });
 
-// Logging function
 function logToFile(message) {
   const logDir = path.join(__dirname, 'logs');
   if (!fs.existsSync(logDir)){
@@ -30,7 +29,6 @@ function logToFile(message) {
   fs.appendFileSync(logPath, `${new Date().toISOString()} - ${message}\n`);
 }
 
-// API endpoint to upload image
 app.post('/api/upload', upload.single('image'), (req, res) => {
   try {
     if (!req.file) {
@@ -42,14 +40,12 @@ app.post('/api/upload', upload.single('image'), (req, res) => {
     logToFile(`File uploaded: ${JSON.stringify(req.file)}`);
     console.log('File uploaded:', req.file);
 
-    // Construct the absolute paths
     const pythonScriptPath = path.join(__dirname, 'model', 'main.py');
     const imagePath = path.join(__dirname, req.file.path);
 
     logToFile(`Python Script Path: ${pythonScriptPath}`);
     logToFile(`Image Path: ${imagePath}`);
 
-    // Use spawn instead of exec for better handling of large outputs
     const pythonProcess = spawn('python', [pythonScriptPath, imagePath]);
 
     let output = '';
@@ -71,12 +67,11 @@ app.post('/api/upload', upload.single('image'), (req, res) => {
       console.error('Python stderr:', dataStr);
     });
 
-    // Handle process close
     pythonProcess.on('close', (code) => {
       logToFile(`Python process exited with code ${code}`);
       console.log('Python process exited with code', code);
 
-      // Log full error output for debugging
+      
       if (errorOutput) {
         logToFile(`Full error output: ${errorOutput}`);
         console.error('Full error output:', errorOutput);
@@ -113,8 +108,7 @@ app.post('/api/upload', upload.single('image'), (req, res) => {
   }
 });
 
-// Server setup
-const PORT = 5000;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });

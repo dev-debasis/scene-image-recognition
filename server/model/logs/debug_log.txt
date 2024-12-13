@@ -63,3 +63,277 @@ Annotating image with bounding boxes
 Creating output directory
 Saving annotated image to D:\projects\scene-image-recognition-c\server\model\output\output_annotated_image_20241212_143355.jpg
 Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-c\server
+Image path received: D:\projects\scene-image-recognition-c\server\uploads\1734007604087.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[60, 40], [1596, 40], [1596, 354], [60, 354]], 'TITAN', 0.9787426893245887)]
+Extracted text: TITAN
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-c\server\model\output\output_annotated_image_20241212_181719.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-c\server
+Image path received: D:\projects\scene-image-recognition-c\server\uploads\1734009878153.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[60, 40], [1596, 40], [1596, 354], [60, 354]], 'TITAN', 0.9787426893245887)]
+Extracted text: TITAN
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-c\server\model\output\output_annotated_image_20241212_185501.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-c\server
+Image path received: D:\projects\scene-image-recognition-c\server\uploads\1734009919781.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[44, 2], [1389, 2], [1389, 199], [44, 199]], 'ACCESSORIES', 0.9405529944488313)]
+Extracted text: ACCESSORIES
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-c\server\model\output\output_annotated_image_20241212_185538.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-c\server
+Image path received: D:\projects\scene-image-recognition-c\server\uploads\1734010084782.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[0, 0], [225, 0], [225, 15], [0, 15]], 'LEARN LOCALLY ACT GLOBALLY', 0.7345941354580958)]
+Extracted text: LEARN LOCALLY ACT GLOBALLY
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-c\server\model\output\output_annotated_image_20241212_185818.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-c\server
+Image path received: D:\projects\scene-image-recognition-c\server\uploads\1734011075915.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[10, 0], [465, 0], [465, 152], [10, 152]], 'AND', 0.789388120174408)]
+Extracted text: AND
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-c\server\model\output\output_annotated_image_20241212_191450.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-c\server
+Image path received: D:\projects\scene-image-recognition-c\server\uploads\1734026997991.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[60, 40], [1596, 40], [1596, 354], [60, 354]], 'TITAN', 0.9787426893245887)]
+Extracted text: TITAN
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-c\server\model\output\output_annotated_image_20241212_234023.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-c\server
+Image path received: D:\projects\scene-image-recognition-c\server\uploads\1734032702053.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[60, 40], [1596, 40], [1596, 354], [60, 354]], 'TITAN', 0.9787426893245887)]
+Extracted text: TITAN
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-c\server\model\output\output_annotated_image_20241213_011527.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-updated\server
+Image path received: D:\projects\scene-image-recognition-updated\server\uploads\1734035235994.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[44, 2], [1389, 2], [1389, 199], [44, 199]], 'ACCESSORIES', 0.9405529944488313)]
+Extracted text: ACCESSORIES
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-updated\server\model\output\output_annotated_image_20241213_015735.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-updated\server
+Image path received: D:\projects\scene-image-recognition-updated\server\uploads\1734035665542.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[60, 40], [1596, 40], [1596, 354], [60, 354]], 'TITAN', 0.9787426893245887)]
+Extracted text: TITAN
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-updated\server\model\output\output_annotated_image_20241213_020445.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-updated\server
+Image path received: D:\projects\scene-image-recognition-updated\server\uploads\1734079407164.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[10.558684075071971, 1.0121817588026634], [69.82722495574625, -8.957116240987725], [105.44131592492803, 197.98781824119735], [47.172775044253754, 208.95711624098772]], '8', 0.20360592149950563)]
+Extracted text: 8
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-updated\server\model\output\output_annotated_image_20241213_141341.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-updated\server
+Image path received: D:\projects\scene-image-recognition-updated\server\uploads\1734079487456.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[7, 0], [393, 0], [393, 65], [7, 65]], 'Baidyanath', 0.9997392833861466)]
+Extracted text: Baidyanath
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-updated\server\model\output\output_annotated_image_20241213_141456.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-updated\server
+Image path received: D:\projects\scene-image-recognition-updated\server\uploads\1734079529118.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[0, 10], [395, 10], [395, 97], [0, 97]], 'briq" Qook>', 0.04114081963535619)]
+Extracted text: briq" Qook>
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-updated\server\model\output\output_annotated_image_20241213_141538.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-updated\server
+Image path received: D:\projects\scene-image-recognition-updated\server\uploads\1734079576090.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[0, 6], [130, 6], [130, 63], [0, 63]], 'Com', 0.09805908169372295)]
+Extracted text: Com
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-updated\server\model\output\output_annotated_image_20241213_141624.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-updated\server
+Image path received: D:\projects\scene-image-recognition-updated\server\uploads\1734079636417.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[37.4876471246651, -28.989057282836548], [349.63968747138074, 139.0814942918367], [298.5123528753349, 228.98905728283654], [-12.639687471380755, 59.918505708163316]], 'EMERGENCY', 0.6492467467402276)]
+Extracted text: EMERGENCY
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-updated\server\model\output\output_annotated_image_20241213_141724.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-updated\server
+Image path received: D:\projects\scene-image-recognition-updated\server\uploads\1734079674524.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[0, 0], [947, 0], [947, 216], [0, 216]], 'Edvicon', 0.3715109355418019)]
+Extracted text: Edvicon
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-updated\server\model\output\output_annotated_image_20241213_141802.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-updated\server
+Image path received: D:\projects\scene-image-recognition-updated\server\uploads\1734079700519.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[1, 0], [49, 0], [49, 17], [1, 17]], 'UP To', 0.8804133061094074), ([[77, 0], [127, 0], [127, 17], [77, 17]], '% OFF', 0.6369354616225011)]
+Extracted text: UP To
+% OFF
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-updated\server\model\output\output_annotated_image_20241213_141827.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-updated\server
+Image path received: D:\projects\scene-image-recognition-updated\server\uploads\1734080127187.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[60, 40], [1596, 40], [1596, 354], [60, 354]], 'TITAN', 0.9787426893245887)]
+Extracted text: TITAN
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-updated\server\model\output\output_annotated_image_20241213_142538.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-final\server
+Image path received: D:\projects\scene-image-recognition-final\server\uploads\1734081297162.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[2, 0], [303, 0], [303, 35], [2, 35]], 'MANAGEMENT', 0.9994361823888995)]
+Extracted text: MANAGEMENT
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-final\server\model\output\output_annotated_image_20241213_144507.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-final\server
+Image path received: D:\projects\scene-image-recognition-final\server\uploads\1734081737017.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[60, 40], [1596, 40], [1596, 354], [60, 354]], 'TITAN', 0.9787426893245887)]
+Extracted text: TITAN
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-final\server\model\output\output_annotated_image_20241213_145228.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-final\server
+Image path received: D:\projects\scene-image-recognition-final\server\uploads\1734081898574.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[11, 0], [259, 0], [259, 81], [11, 81]], 'vivo', 0.7486017942428589)]
+Extracted text: vivo
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-final\server\model\output\output_annotated_image_20241213_145507.jpg
+Result prepared successfully
+Starting text recognition process
+Current working directory: D:\projects\scene-image-recognition-final\server
+Image path received: D:\projects\scene-image-recognition-final\server\uploads\1734082113082.png
+Initializing EasyOCR reader
+EasyOCR reader initialized
+Performing text recognition
+Text recognition completed. Results: [([[0, 5], [224, 5], [224, 64], [0, 64]], 'SERIOUS', 0.9996997264194147)]
+Extracted text: SERIOUS
+Reading image for annotation
+Annotating image with bounding boxes
+Creating output directory
+Saving annotated image to D:\projects\scene-image-recognition-final\server\model\output\output_annotated_image_20241213_145843.jpg
+Result prepared successfully

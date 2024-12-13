@@ -1,65 +1,66 @@
-import React, { useState } from 'react';
-import axios from 'axios';
 
-function ImageUpload() {
+import React, { useState } from "react";
+
+const ImageUpload = ({ onResult }) => {
   const [file, setFile] = useState(null);
-  const [detectedText, setDetectedText] = useState('');
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
-  // Handle file input change
-  const handleFileChange = (e) => {
-    setFile(e.target.files[0]);
+  const handleFileChange = (event) => {
+    setFile(event.target.files[0]);
+    setError(null);
   };
 
-  // Handle image upload and processing
   const handleUpload = async () => {
     if (!file) {
-      alert("Please select an image first!");
+      setError("Please select a file to upload.");
       return;
     }
 
-    setLoading(true);
     const formData = new FormData();
-    formData.append('image', file);
+    formData.append("image", file);
+
+    setLoading(true);
+    setError(null);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/upload', formData, {
-        headers: {
-          'Content-Type': 'multipart/form-data',
-        },
+      const response = await fetch("http://localhost:5000/api/upload", {
+        method: "POST",
+        body: formData,
       });
 
-      // Update state with the detected text returned by the backend
-      setDetectedText(response.data.result);
-    } catch (error) {
-      console.error("Error uploading image:", error);
-      alert("An error occurred while uploading the image.");
+      if (!response.ok) {
+        throw new Error("Failed to process the image. Please try again.");
+      }
+
+      const data = await response.json();
+      onResult(data); // Pass the result to the parent component
+    } catch (err) {
+      setError(err.message);
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div>
-      <h2>Upload Image for Text Recognition</h2>
-      
-      {/* File input for image upload */}
-      <input type="file" onChange={handleFileChange} />
-      
-      {/* Upload button */}
-      <button onClick={handleUpload} disabled={loading}>
-        {loading ? 'Processing...' : 'Upload and Detect Text'}
+    <div className="p-4 border rounded-lg bg-white shadow-md">
+      <h2 className="text-lg font-semibold mb-2">Upload Image for Text Recognition</h2>
+      <input
+        type="file"
+        accept="image/*"
+        onChange={handleFileChange}
+        className="mb-4 block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
+      />
+      {error && <p className="text-red-500 text-sm mb-2">{error}</p>}
+      <button
+        onClick={handleUpload}
+        disabled={loading}
+        className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 disabled:bg-gray-300"
+      >
+        {loading ? "Processing..." : "Upload and Detect Text"}
       </button>
-
-      {/* Display detected text */}
-      {detectedText && (
-        <div>
-          <h3>Detected Text:</h3>
-          <p>{detectedText}</p>
-        </div>
-      )}
     </div>
   );
-}
+};
 
 export default ImageUpload;
